@@ -1,0 +1,11 @@
+:host(){
+    /* same as :host- used to make variables in css */
+    --dark-blue:#243356;
+    --light-blue:#00D9FE;
+}
+.custom-label{
+    color: var(--light-blue);
+}
+.custom-select{
+    color: var(--dark-blue);
+}
