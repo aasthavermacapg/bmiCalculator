@@ -15,6 +15,6 @@ export default class Notification extends LightningElement {
         this.showNotification = true;
         setTimeout(()=>{
             this.showNotification = false
-        }, 5000)
+        }, 3000)
     }
 }
