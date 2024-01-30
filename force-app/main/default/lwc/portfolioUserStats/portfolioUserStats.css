@@ -1,0 +1,19 @@
+h3{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+}
+p{
+    font-size: 32px;
+    font-weight: 700;
+    color: #f6c403;
+}
+img{
+    height: 100px;
+}
+@media (max-width:959px) { 
+    /* 959 because till 960 button is in the top line only but below 960 button goes down */
+    img{
+        margin-top: 16px;
+    }
+}
